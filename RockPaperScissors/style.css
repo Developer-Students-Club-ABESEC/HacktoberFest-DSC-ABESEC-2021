@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background: url(./assets/farouk-mechedal-iWmfPbKmxEQ-unsplash.jpg)
+  no-repeat center center/cover; */
+  background-color: #4EB1BA;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li{
+    cursor: pointer;
+    list-style-type: none;
+
+}
+.center{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height: 50vh;
+    margin: 40px;
+    font-size:40px;
+    font-family: 'Lato', sans-serif;
+}
+.up{
+  padding: 40px;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.bottom{
+    font-size: 30px;
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+}
+h5{
+  display: flex;
+  justify-content:center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.top ul li{
+  background-color: rgb(163, 202, 153);
+  color:#3f1818;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  transition: all 1s ease-in-out;
+}
+.top ul li:hover{
+  color: white;
+  background-color: black;
+  transform: scale(1.1);
+  /* font-weight: 600; */
+  /* font-family: monospace; */
+  transition: all 0.4s ease-in-out;
+}
+.center{
+  background-color: rgb(163, 202, 153);
+  border-radius: 15px;
+}
+h6{
+  margin-top:50px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 100;
+}
+.refresh{
+  cursor: pointer;
+}
+@media screen and (max-width: 570px) {
+  body {
+    background-color: lightgreen;
+  }
+  .top ul li{
+    background-color: rgb(163, 202, 153);
+    color:#3f1818;
+    padding: 10px;
+    border-radius: 4px;
+    
+    transition: all 1s ease-in-out;
+  }
+  .center{
+    height: 50vh;
+    margin: 40px;
+    font-size:25px;
+    font-family: 'Lato', sans-serif;
+}
+.up{
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.refresh{
+  font-size: 15px;
+}
+.bottom{
+  font-size: 20px;
+}
+}
